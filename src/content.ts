@@ -100,7 +100,7 @@ export const PROOF_CONTENT = {
   statTiles: [
     { number: '#1', label: 'Google ranking for "cotton towels" & "organic cotton towels"' },
     { number: '503K+', label: 'Search impressions (Haber Living)' },
-    { number: '₹1.05 Cr+', label: 'Revenue from Google organic (automobile e-commerce)' },
+    { number: '$125K+', label: 'Revenue from Google organic (automobile e-commerce)' },
     { number: 'Featured snippet', label: 'for "bulk organic rice exporters" (Nethi Exports)' },
   ],
   proofItems: [
@@ -138,12 +138,12 @@ export const PROOF_CONTENT = {
     {
       id: 'automobile-ecommerce',
       tag: 'E-commerce · India · client name confidential',
-      title: 'From Zero to ₹1.05 Crore+ in Organic Sales',
+      title: 'From Zero to $125,000+ in Organic Sales',
       challenge: 'Brand-new website — zero domain authority, no rankings, pages not indexed, no organic sales.',
       whatWeDid: 'SEO-friendly site architecture · Technical SEO & Core Web Vitals · On-page SEO for product pages · GEO & AEO optimization for ChatGPT and Google AI Overviews · GA4 & conversion tracking',
       resultsList: [
-        '₹1,05,07,861+ in sales from Google organic (3,451 orders)',
-        '₹2,75,834+ in sales from ChatGPT referrals (114 orders)',
+        '$125,000+ in sales from Google organic (3,451 orders)',
+        '$3,300+ in sales from ChatGPT referrals (114 orders)',
         'Hundreds of product pages indexed and ranking',
         'Organic traffic built from zero',
       ],
@@ -151,7 +151,7 @@ export const PROOF_CONTENT = {
         {
           src: '/proof/auto-ecommerce-sales-dashboard.webp',
           caption: 'Store analytics: sales by traffic source',
-          alt: 'E-commerce sales dashboard demonstrating ₹1.05 Cr organic revenue',
+          alt: 'E-commerce sales dashboard demonstrating $125,000+ organic revenue',
         },
       ],
     },
