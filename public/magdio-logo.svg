@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 120" width="460" height="120">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#1D4ED8" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EAB308" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#FBBF24" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Left Icon: Blue Bar Chart + Gold 'M' Arrow -->
+  <g transform="translate(10, 12)">
+    <!-- Blue Vertical Bars -->
+    <rect x="18" y="52" width="16" height="46" rx="3" fill="url(#blueGrad)" />
+    <rect x="39" y="38" width="16" height="60" rx="3" fill="url(#blueGrad)" />
+    <rect x="60" y="24" width="16" height="74" rx="3" fill="url(#blueGrad)" />
+    <rect x="81" y="10" width="16" height="88" rx="3" fill="url(#blueGrad)" />
+
+    <!-- Gold 'M' Shape & Upward Growth Arrow -->
+    <path d="M 8 76 L 33 44 L 56 76 L 96 16" fill="none" stroke="url(#goldGrad)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" filter="url(#shadow)" />
+    
+    <!-- Gold Arrowhead -->
+    <path d="M 74 12 L 104 10 L 98 40 Z" fill="url(#goldGrad)" filter="url(#shadow)" />
+  </g>
+
+  <!-- Right Text Group -->
+  <g transform="translate(132, 15)">
+    <!-- MAGDIO -->
+    <text x="0" y="52" font-family="'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif" font-weight="900" font-size="52" fill="#FFFFFF" letter-spacing="1">MAGDIO</text>
+    <!-- THE AI GROWTH STUDIO -->
+    <text x="2" y="80" font-family="'Inter', system-ui, -apple-system, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF" letter-spacing="3.2">THE AI GROWTH STUDIO</text>
+  </g>
+</svg>
