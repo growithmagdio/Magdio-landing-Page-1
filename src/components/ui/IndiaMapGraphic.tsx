@@ -29,7 +29,7 @@ export const IndiaMapGraphic: React.FC<IndiaMapGraphicProps> = ({ className = ''
         
         {/* Map Image */}
         <img
-          src="/google-maps-tamilnadu.jpg"
+          src="/google-maps-us-midatlantic.jpg"
           alt="Google Maps Local Search Visibility"
           className="w-full h-full object-cover object-center transform transition-transform duration-700 group-hover:scale-105"
         />
