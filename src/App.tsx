@@ -1,4 +1,3 @@
-import { Navbar } from './components/Navbar';
 import { FloatingMobileCTA } from './components/FloatingMobileCTA';
 import { Footer } from './components/Footer';
 
@@ -14,9 +13,6 @@ import { FinalCTASection } from './components/sections/FinalCTASection';
 export function App() {
   return (
     <div className="min-h-screen bg-[#0A0F1F] text-white selection:bg-[#F5B82E] selection:text-[#0A0F1F] antialiased overflow-x-hidden">
-      {/* Sticky Header Navigation */}
-      <Navbar />
-
       {/* Main Single Page Sections */}
       <main>
         <HeroSection />

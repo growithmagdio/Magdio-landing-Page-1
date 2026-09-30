@@ -3,25 +3,28 @@ import React from 'react';
 interface MagdioLogoProps {
   className?: string;
   height?: number;
+  showIcon?: boolean;
 }
 
-export const MagdioLogo: React.FC<MagdioLogoProps> = ({ className = '', height = 40 }) => {
+export const MagdioLogo: React.FC<MagdioLogoProps> = ({ className = '', height = 40, showIcon = true }) => {
   return (
     <div className={`inline-flex items-center gap-3.5 select-none ${className}`}>
       {/* Icon Mark from magdio icon lgo.jpeg */}
-      <img
-        src="/magdio icon lgo.jpeg"
-        alt="Magdio Icon"
-        style={{ height: `${height}px` }}
-        className="w-auto object-contain block rounded-sm shadow-sm"
-        onError={(e) => {
-          const target = e.target as HTMLImageElement;
-          if (!target.dataset.triedFallback) {
-            target.dataset.triedFallback = 'true';
-            target.src = '/magdio-logo.png';
-          }
-        }}
-      />
+      {showIcon && (
+        <img
+          src="/magdio icon lgo.jpeg"
+          alt="Magdio Icon"
+          style={{ height: `${height}px` }}
+          className="w-auto object-contain block rounded-sm shadow-sm"
+          onError={(e) => {
+            const target = e.target as HTMLImageElement;
+            if (!target.dataset.triedFallback) {
+              target.dataset.triedFallback = 'true';
+              target.src = '/magdio-logo.png';
+            }
+          }}
+        />
+      )}
 
       {/* Crisp HTML Wordings */}
       <div className="flex flex-col justify-center">
